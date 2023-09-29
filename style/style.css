@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Ruda:wght@900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#end {
+    font-size: 8pt;
+
+}
+
+#sale {
+    font-size: 46pt;
+    color: #B88940;
+
+}
+
+#lorem1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 7pt;
+    letter-spacing: 1px;
+}
+
+#top {
+    margin-top: 20px;
+    background: black;
+    width: 60px;
+    height: 5px;
+    border-radius: 50vw;
+
+}
+
+main {
+    text-align: center;
+}
+
+.container1 {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.container1>div {
+
+    background-color: #FFBD59;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.container2>div {
+    height: 220px;
+    width: 150px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container2>div:nth-child(1) {
+    background-image: url(/img/1.png);
+}
+
+.container2>div:nth-child(2) {
+    background-image: url(/img/2.png);
+}
+
+.container2>div:nth-child(3) {
+    background-image: url(/img/3.png);
+}
+
+main>p {
+    display: inline;
+    margin-left: 83px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#nomargin {
+    margin-left: 0px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#abajo {
+    font-size: 30pt;
+    color: #B88940;
+}
+
+#abajo2 {
+    font-size: 15px;
+    margin-top: -20px;
+}
